@@ -215,7 +215,7 @@ const BlogPostFloridaBotanicalGarden = () => {
                 <blockquote className="text-lg text-gray-700 italic mb-4">
                   "We were in need of a photographer for our elopement ceremony - after going through several portfolios, Gorban Pixels stood out from all the others! Our photographer and her team went above and beyond, ensuring to capture the most beautiful photos. She scheduled a phone call with me and my wife, talked us through the turn of events that would take place, and made us feel very comfortable and excited for our big day. Our photographer's assistant, Carly, was the photographer, and our main photographer did the editing. Carly did an incredible job capturing the photos. She made it fun and even brought a Bluetooth speaker to play our favorite songs as we explored the beautiful gardens and downtown Tampa, all of which were areas pre-planned by our photographers. If you are looking for true professionals and stunning photography, I highly recommend Gorban Pixels!"
                 </blockquote>
-                <cite className="text-gray-600 font-medium">— Drew + Joey, Client Couple</cite>
+                <cite className="text-gray-600 font-medium">— Jessica + Joey, Client Couple</cite>
               </div>
             </section>
 
