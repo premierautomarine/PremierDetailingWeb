@@ -2,16 +2,7 @@
 
 A modern, responsive wedding photography website built with React, TypeScript, and Tailwind CSS.
 
-## Features
 
-- 🎨 Modern, elegant design
-- 📱 Fully responsive layout
-- ⚡ Fast performance with Vite
-- 🎯 SEO optimized
-- 📝 Blog with detailed wedding guides
-- 🖼️ Portfolio showcase
-- 💬 Client testimonials
-- 📞 Contact forms
 
 ## Tech Stack
 
@@ -56,4 +47,6 @@ This project is configured for deployment on Netlify with automatic builds and r
 
 ---
 
-© 2024 Gorban Pixels Photography. Built with ❤️ in Tampa, Florida.
+© 2024 Gorban Pixels Photography. Built by Andray Gorbanin Tampa, Florida.
+
+# gorban-pixels-photography
