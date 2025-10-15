@@ -1,18 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/PremierDetailingWeb/",
   plugins: [react()],
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-  optimizeDeps: {
-    exclude: ["bippy/dist/jsx-dev-runtime", "bippy/dist/jsx-runtime"],
+    rollupOptions: { output: { manualChunks: undefined } },
   },
 });

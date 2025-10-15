@@ -1,4 +1,4 @@
-# Premier Boat Detailing Website
+# Premier Boat Detailing
 
 A modern, responsive wedding photography website built with React, TypeScript, and Tailwind CSS.
 
@@ -47,6 +47,6 @@ This project is configured for deployment on Netlify with automatic builds and r
 
 ---
 
-© 2025 Premier Boat Detailing. Built by Andray Gorban in Tampa, Florida.
+© 2024 Gorban Pixels Photography. Built by Andray Gorbanin Tampa, Florida.
 
-# Premier-Boat-Detailing
+# Premier Boat Detailing

@@ -1,6 +1,6 @@
 {
   "name": "Premier-Boat-Detailing",
-  "description": "Premier Boat Detailing - Tampa Detailing Services",
+  "description": "Professional Boat Detailing in Tampa Florida",
   "homepage": "https://premierautomarine.github.io/PremierDetailingWeb/",
   "private": true,
   "version": "0.0.0",
@@ -12,7 +12,7 @@
     "format": "bunx biome format --write",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r git@github.com:premierautomarine/PremierDetailingWeb.git"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -29,7 +29,6 @@
     "@typescript-eslint/parser": "^8.32.1",
     "@vitejs/plugin-react": "^4.5.0",
     "autoprefixer": "^10.4.21",
-    "bippy": "^0.3.16",
     "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-import-resolver-typescript": "^3.10.1",
