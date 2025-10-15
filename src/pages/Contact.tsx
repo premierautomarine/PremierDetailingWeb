@@ -64,28 +64,30 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="text-3xl md:text-5xl font-light text-gray-900 mb-8 leading-tight">
-                We are going to give you so much more than basic photographs
+                We’re here to give your boat more than just a basic wash
               </h1>
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                  Before you reach out, we want you to understand the true value of what we offer. Your wedding photographs will become timeless keepsakes, cherished for generations and growing in meaning as the years go by. This isn’t just a job to us, it’s a responsibility we hold with deep care.
+                  Before you schedule with us, we want you to understand the value behind what we do. Boat detailing isn’t just about making things look clean, it’s about preserving what you’ve worked hard for. Every polish, every restoration, every coat of protection is done with care and precision to keep your vessel in peak condition.
                 </p>
                 <p>
-                  We’re here to document your day as it genuinely unfolds, so when you look back, you’ll feel the emotions all over again not just see posed, lifeless images, but relive every meaningful moment.
+                  We take pride in doing things the right way, the first time. When you see your reflection in that mirror finish, it’s not just shine, it’s craftsmanship, protection, and pride that lasts long after we pack up.
                 </p>
               </div>
+
+              
             </div>
             <div className="grid grid-cols-2 gap-1">
               <div className="relative h-100 overflow-hidden">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_61.PNG?updatedAt=1752106409465"
+                  src="https://ik.imagekit.io/tdwk7dqz1/Contact-1.JPG?updatedAt=1760327821056"
                   alt="Castle wedding photography"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="relative h-100 overflow-hidden">
                 <img
-                  src="https://ik.imagekit.io/f9opvmhvz/Photo_90.PNG?updatedAt=1752110192839"
+                  src="https://ik.imagekit.io/tdwk7dqz1/Contact-2.JPG?updatedAt=1760328014957"
                   alt="Beach engagement session"
                   className="w-full h-full object-cover"
                 />
@@ -103,7 +105,7 @@ const Contact = () => {
               {/* Names */}
               <div>
                 <label htmlFor="names" className="block text-sm font-medium text-gray-700 mb-2">
-                  Names (and your partner’s, if applicable) *
+                  Name *
                 </label>
                 <input
                   type="text"
@@ -111,7 +113,7 @@ const Contact = () => {
                   name="names"
                   value={formData.names}
                   onChange={handleInputChange}
-                  placeholder="Your + your partner's name"
+                  placeholder="Your name"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent"
                   required
                 />
@@ -137,7 +139,7 @@ const Contact = () => {
               {/* Phone */}
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                  Phone (in case your email isn't spelled right - it happens *
+                  Phone *
                 </label>
                 <input
                   type="tel"
@@ -166,9 +168,8 @@ const Contact = () => {
                   <option value="">Select an option</option>
                   <option value="google">Google Search</option>
                   <option value="instagram">Instagram</option>
-                  <option value="referral">Friend/Family Referral</option>
-                  <option value="vendor">Vendor Referral</option>
-                  <option value="venue">Venue Referral</option>
+                  <option value="referral">Facebook</option>
+                  <option value="vendor">TikTok</option>
                   <option value="other">Other</option>
                 </select>
               </div>
@@ -187,67 +188,19 @@ const Contact = () => {
                   required
                 >
                   <option value="">Select an option</option>
-                  <option value="wedding">Wedding Photography</option>
-                  <option value="elopement">Elopement Photography</option>
-                  <option value="engagement">Engagement Session</option>
-                  <option value="couples">Couples Session</option>
-                  <option value="couples">Family Session</option>
-                  <option value="couples">Graduation/Cap & Gown</option>
-                  <option value="couples">Maternity Session</option>
+                  <option value="wedding">Admirals Club Subscription</option>
+                  <option value="elopement">Full Detail</option>
+                  <option value="engagement">Gel Coat Restoration</option>
+                  <option value="couples">Oxidation Removal</option>
+                  <option value="couples">Interior Clean</option>
                   <option value="other">Other</option>
                 </select>
-              </div>
-
-              {/* Instagram */}
-              <div>
-                <label htmlFor="instagram" className="block text-sm font-medium text-gray-700 mb-2">
-                  Your Instagram (if you'd like to share)
-                </label>
-                <input
-                  type="text"
-                  id="instagram"
-                  name="instagram"
-                  value={formData.instagram}
-                  onChange={handleInputChange}
-                  placeholder="E.g. @boldsoultogether"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent"
-                />
-              </div>
-
-              {/* Wedding Date */}
-              <div>
-                <label htmlFor="weddingDate" className="block text-sm font-medium text-gray-700 mb-2">
-                  WEDDINGS: Wedding Date, leave blank if not inquiring about a wedding
-                </label>
-                <input
-                  type="date"
-                  id="weddingDate"
-                  name="weddingDate"
-                  value={formData.weddingDate}
-                  onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent"
-                />
-              </div>
-
-              {/* Ceremony + Reception locations */}
-              <div className="md:col-span-2">
-                <label htmlFor="ceremonyReceptionLocation" className="block text-sm font-medium text-gray-700 mb-2">
-                  WEDDINGS: Ceremony + Reception locations (make sure to include BOTH if they are different locations), leave blank if not inquiring about a wedding
-                </label>
-                <textarea
-                  id="ceremonyReceptionLocation"
-                  name="ceremonyReceptionLocation"
-                  value={formData.ceremonyReceptionLocation}
-                  onChange={handleInputChange}
-                  rows={3}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent"
-                />
               </div>
 
               {/* Guest Count */}
               <div className="md:col-span-2">
                 <label htmlFor="guestCount" className="block text-sm font-medium text-gray-700 mb-2">
-                  WEDDINGS: How many guests will you have (approximate is fine), leave blank if not inquiring about a wedding
+                  Boat Type (Make & Model)
                 </label>
                 <input
                   type="text"
@@ -259,17 +212,17 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Additional Questions */}
+              {/* Ceremony + Reception locations */}
               <div className="md:col-span-2">
-                <label htmlFor="guestCount" className="block text-sm font-medium text-gray-700 mb-2">
-                  Anything else you'd like us to know? Tell us about your vision, ideas, or anything else!
+                <label htmlFor="ceremonyReceptionLocation" className="block text-sm font-medium text-gray-700 mb-2">
+                  Other Details
                 </label>
-                <input
-                  type="text"
-                  id="Additional"
-                  name="Additional"
-                  value={formData.Additional}
+                <textarea
+                  id="ceremonyReceptionLocation"
+                  name="ceremonyReceptionLocation"
+                  value={formData.ceremonyReceptionLocation}
                   onChange={handleInputChange}
+                  rows={3}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent"
                 />
               </div>
@@ -298,7 +251,7 @@ const Contact = () => {
             <div>
               <h3 className="text-sm font-medium text-gray-600 mb-4 uppercase tracking-wide">View</h3>
               <h4 className="text-2xl font-light text-gray-900">
-                <a href="/blog" className="hover:text-gray-700 transition-colors">Real Stories</a>
+                <a href="/portfolio" className="hover:text-gray-700 transition-colors">Our Work</a>
               </h4>
             </div>
             <div>

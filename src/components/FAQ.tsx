@@ -1,28 +1,44 @@
 const FAQ = () => {
   const faqs = [
     {
-      question: "Will you help us plan?",
-      answer: "We will provide a full photo timeline of the day and a family shot list to you prior to a wedding or event so we are on the same page!"
+      question: "How often should I have my boat detailed?",
+      answer: "We recommend a full detail every 3-6 months depending on use and storage conditions. Regular washes in between help preserve the finish and protect against oxidation, UV damage, and salt buildup."
     },
     {
-      question: "How do we contact you after booking?",
-      answer: "We keep things organized by handling all communication via email until the day of. This ensures everything stays in one place! Once you’re booked, we’ll share our phone number so you can reach us when needed."
+      question: "Do you come to my location?",
+      answer: "Yes! We’re a fully mobile detailing service. Whether your boat is docked, trailered, or in storage, we bring everything needed to perform the job on-site: water, power, and all professional grade products."
+    },
+    {
+      question: "What’s included in a full detail?",
+      answer: "Our full detail covers exterior washing, oxidation removal, compounding, polishing, waxing or ceramic coating, metal polishing, vinyl cleaning, and interior detailing. Every service is customized to your vessel’s size and condition."
     },
     {
       question: "Are you insured?",
-      answer: "We’re fully insured and can provide a certificate of insurance to your venue upon request."
+      answer: "Absolutely. We’re fully insured and can provide proof of insurance upon request for marinas, yacht clubs, or private properties."
     },
     {
-      question: "How do you ensure our photos are secure?",
-      answer: "We immediately back up your photos to a separate hard drive and the cloud, ensuring they’re safe no matter what. Your memories are priceless, and we take every precaution to protect them!"
+      question: "What products do you use?",
+      answer: "We use only trusted, marine-grade brands such as Starke Yacht Surface Technologies and other professional detailing products designed specifically for saltwater and UV protection."
     },
     {
-      question: "Will you do any heavy retouching?",
-      answer: "We believe in capturing authentic beauty so we won’t alter your body or face in any way. Every person is beautiful just as they are! That said, if a temporary blemish pops up (because, hey, life happens!), we’ll take care of it in the edits."
+      question: "How long does a full detail take",
+      answer: "Most full details takes a few hours to a few days depending on the size of the vessel, oxidation level, and service package. We’ll provide an estimated timeframe before we begin."
     },
     {
-      question: "How do you deliver the final product?",
-      answer: "Your photos will be delivered digitally through a secure online gallery. You’ll receive an email with access, and from there, you can download the full gallery, which we highly recommend doing immediately to at least two locations for safekeeping. Your gallery will remain available for one year, but if you'd like to keep it online indefinitely, you’ll have the option to extend it for a small fee."
+      question: "Do I need to be present during the service?",
+      answer: "Not at all. As long as we have access to the boat, we can complete the detailing while you’re away. We’ll send before-and-after photos once the job is finished. We also require the customer to go through a checklist to make sure everything was done to your expectations."
+    },
+    {
+      question: "Do you offer maintenance or subscription plans?",
+      answer: "Yes! Our Admiral’s Choice Subscription offers monthly, quarterly, or annual maintenance plans to keep your boat consistently clean and protected year-round."
+    },
+    {
+      question: "How do I schedule or get a quote?",
+      answer: "You can reach us through our website, call, or text. We’ll ask for your boat type, size, and current condition to provide a fast, accurate quote."
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer: "We accept cash, major credit cards, and digital payments (Zelle, Venmo, etc.). Payment is due upon completion of service unless part of a scheduled subscription plan."
     }
   ]
 
@@ -57,15 +73,15 @@ const FAQ = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mt-16">
           <div className="relative h-96 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/Photo_105.PNG?updatedAt=1752115903661"
-              alt="Family Photo Children shots"
+              src="https://ik.imagekit.io/tdwk7dqz1/FAQ-1.JPG?updatedAt=1760300661672"
+              alt="Sea Hunt Ultra Side"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-96 overflow-hidden">
             <img
-              src="https://ik.imagekit.io/f9opvmhvz/styled-shoot-1-3.jpg?updatedAt=1751153074466"
-              alt="Grandma & Grand daughter"
+              src="https://ik.imagekit.io/tdwk7dqz1/FAQ-2.JPG?updatedAt=1760300661885"
+              alt="Sea Hunt Ultra Interior"
               className="w-full h-full object-cover"
             />
           </div>
@@ -78,10 +94,10 @@ const FAQ = () => {
           </h3>
           <div className="text-gray-700 leading-relaxed space-y-4 max-w-3xl mx-auto">
             <p>
-              There are no second chances when it comes to your wedding or photoshoot. That’s why we’re committed to complete transparency—so you’ll always know what to expect from the moment you book us to the final delivery of your images.
+               Your boat is one of your most valued investments, and we treat it that way. From the first quote to the final inspection, we believe in full transparency-clear pricing, honest assessments, and no hidden costs.
             </p>
             <p>
-              We deeply value your time, your investment, and most importantly, the trust you place in us—whether it’s your biggest day or a simple everyday moment.
+              We take pride in earning your trust through reliable communication, consistent results, and quality work that speaks for itself. Whether it’s your weekend cruiser or your daily vessel, you’ll always know exactly what to expect from start to finish.
             </p>
           </div>
 

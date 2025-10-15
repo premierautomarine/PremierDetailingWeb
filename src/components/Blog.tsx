@@ -1,46 +1,22 @@
 const Blog = () => {
   const blogPosts = [
     {
-      title: "Editorial Vibes in Tampa",
-      date: "June 21, 2025",
-      excerpt: "Trends fade, but the editorial look is timeless. It turns your story into bold, magazine-worthy moments—perfect for weddings or couples shoots in Tampa.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_19.PNG?updatedAt=1751640224135",
-      href: "/blog/editorial-vibes-in-tampa"
+      title: "Admiral’s Choice Subscription",
+      excerpt: "Keep your boat looking showroom ready all year long. Our detailing subscription offers bi-weekly, monthly, quarterly visits to clean, protect, and maintain your vessel, so it always shines like new.",
+      image: "https://ik.imagekit.io/tdwk7dqz1/Blog-1.png?updatedAt=1760295134255",
+      href: "/blog/Admirals-Choice-Subscription"
     },
     {
-      title: "Elope in Tampa FL | The ULTIMATE How-To Guide",
-      date: "Apr 11, 2025",
-      excerpt: "A thoughtful guide to eloping in Tampa, featuring the best micro-venues, BnBs, and planning tips for a relaxed and romantic day. ",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_17.PNG?updatedAt=1751640222278",
-      href: "/blog/elope-in-tampa-fl"
+      title: "What You Get with a Full Detail",
+      excerpt: "A complete overview of our Full Detail service and what’s included; the quality you can expect, and the professional care that keeps your vessel looking its best.",
+      image: "https://ik.imagekit.io/tdwk7dqz1/Blog-2.jpg?updatedAt=1760296186461",
+      href: "/blog/full-detail-description"
     },
     {
-      title: "Top 2025 Wedding Trends That Will Blow You Away",
-      date: "Feb 20, 2025",
-      excerpt: "Discover the most exciting wedding trends for 2025 that couples are embracing for their special day.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_16.PNG?updatedAt=1751639835777",
-      href: "/blog/2025-wedding-trends"
-    },
-    {
-      title: "Florida Botanical Gardens: Wedding Photos & Cost",
-      date: "Nov 8, 2024",
-      excerpt: "Everything you need to know about getting married at the beautiful Florida Botanical Gardens.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_31.PNG?updatedAt=1752026807704",
-      href: "/blog/florida-botanical-gardens-wedding-photos-cost"
-    },
-    {
-      title: "Rehearsal Dinner & Reception Venues in Tampa, FL",
-      date: "Aug 18, 2024",
-      excerpt: "The most beautiful and affordable venues for your rehearsal dinner.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_21_mJjXxHTuZ?updatedAt=1751640494188",
-      href: "/blog/rehearsal-dinner-venues-tampa-fl"
-    },
-    {
-      title: "Tampa Bay Family Photography Guide",
-      date: "Aug 5, 2024",
-      excerpt: "Your complete guide to planning for a Family shoot in the Tampa Bay area.",
-      image: "https://ik.imagekit.io/f9opvmhvz/Photo_23.PNG?updatedAt=1751641943497",
-      href: "/blog/tampa-courthouse-wedding-guide"
+      title: "Check Out Our Previous Work",
+      excerpt: "From full gel coat restorations to interior cleanings, every project reflects our commitment to precision and lasting quality. See why Tampa Bay boaters trust us to bring their vessels back to life.",
+      image: "https://ik.imagekit.io/tdwk7dqz1/Blog-3.jpg?updatedAt=1760295544043",
+      href: "/portfolio"
     }
   ]
 
@@ -50,11 +26,11 @@ const Blog = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8">
-            Planning Resources & Useful Tips
+            Detailing Resources & Packages Offered
           </h2>
           <p className="text-xl text-gray-700">
-            We are all about helping you plan your wedding day or photoshoot!<br />
-            Below you will find blogs dedicated to general planning and tips.
+             We’re dedicated to helping Tampa Bay boat owners protect, restore, and maintain their vessels.<br />
+            Below you’ll find helpful guides, and package insights on our services.
           </p>
         </div>
 
@@ -70,7 +46,7 @@ const Blog = () => {
                 />
               </div>
               <div className="p-6">
-                <p className="text-sm text-gray-500 mb-2">{post.date}</p>
+                
                 <h3 className="text-xl font-medium text-gray-900 mb-3 line-clamp-2">
                   {post.title}
                 </h3>
@@ -91,29 +67,56 @@ const Blog = () => {
         {/* Instagram Feed Preview */}
         <div className="mt-20 text-center">
           <h3 className="text-3xl font-light text-gray-900 mb-8">
-            Find us on Instagram @gorbanpixels
+            Find us on Instagram @premierboatdetailing
           </h3>
 
-          {/* Instagram Grid */}
-          {/*<div className="grid grid-cols-2 md:grid-cols-5 gap-2 mb-8">
-            {[1, 2, 3, 4, 5].map((item) => (
-              <div key={item} className="relative h-48 overflow-hidden">
-                <img
-                  src={`https://images.unsplash.com/photo-${1519741497674 + item}-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80`}
-                  alt={`Instagram post ${item}`}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
+          <a
+            href="https://www.instagram.com/premierboatdetailing/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gray-900 text-white px-8 py-3 text-sm font-medium uppercase tracking-wide hover:bg-gray-800 transition-colors mb-10"
+          >
+            Follow on Instagram 
+          </a>
+           
+        </div>
+
+{/* Instagram Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-1 mb-8">
+            {[
+              "https://ik.imagekit.io/tdwk7dqz1/Banner-1.jpg?updatedAt=1760319870384",
+              "https://ik.imagekit.io/tdwk7dqz1/Banner-2.jpg?updatedAt=1760319870752",
+              "https://ik.imagekit.io/tdwk7dqz1/Banner-3.jpg?updatedAt=1760319870737",
+              "https://ik.imagekit.io/tdwk7dqz1/Banner-4.jpg?updatedAt=1760319870678",
+              "https://ik.imagekit.io/tdwk7dqz1/Banner-5.jpg?updatedAt=1760319870559"
+            ].map((image, index) => (
+              <div key={index} className="relative h-48 overflow-hidden">
+                <a href="https://instagram.com/gorbanpixels" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={image}
+                    alt={`Instagram post ${index + 1}`}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </a>
               </div>
             ))}
-          </div>*/}
+          </div>
+
+        {/* Facebook Preview */}
+        <div className="mt-20 text-center">
+          <h3 className="text-3xl font-light text-gray-900 mb-8">
+            Also check us out on Facebook
+          </h3>
+
+          
 
           <a
-            href="https://www.instagram.com/gorbanpixels/"
+            href="https://www.facebook.com/profile.php?id=61581825377055"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-gray-900 text-white px-8 py-3 text-sm font-medium uppercase tracking-wide hover:bg-gray-800 transition-colors"
           >
-            Follow on Instagram
+            Follow on Facebook
           </a>
         </div>
       </div>

@@ -7,8 +7,8 @@ const About = () => {
           <div className="order-2 lg:order-1">
             <div className="relative">
               <img
-                src="https://ik.imagekit.io/f9opvmhvz/Photo_24_n3D-TGx-G?updatedAt=1751642997452"
-                alt="Gorban Pixels photographers"
+                src="https://ik.imagekit.io/tdwk7dqz1/About-3.jpg?updatedAt=1760486853606"
+                alt="The Team"
                 className="w-full h-100 object-cover rounded-lg shadow-lg"
               />
             </div>
@@ -17,31 +17,35 @@ const About = () => {
           {/* Content */}
           <div className="order-1 lg:order-2">
             <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8">
-              Hi! We're Gorban Pixels
+              Hi! We're Premier Boat Detailing
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Our approach to wedding photography is a documentary style & focuses on your individuality to create amazing images.
+              Our approach to detailing your vessel is patience and a keen eye for perfection, focusing on getting your vessel the gloss and shine you need.
             </p>
-
             <h3 className="text-1xl md:text-2xl font-light text-gray-900 mb-6">
-             We are Tampa's Wedding and Lifestyle Photographers
+             We are Tampa's #1 Boat Detailers
             </h3>
 
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                We’re Andray and Anastasiya Gorban, a husband and wife photography duo based in the beautiful Tampa Bay. Our passion for capturing life’s most meaningful moments started as a personal journey—documenting our own adventures, special milestones, and the little in-between moments that make life truly special. Now, we’re excited to bring that same passion and care to you.
+                We’re Andray Gorban and Artem Varlamov, a two-person crew serving Tampa Bay with professional, on-site boat detailing. Our approach is simple: protect your investment, revive the shine, and keep your vessel looking its best wheather its on a dock, lift, trailer, or storage unit.
               </p>
 
               <p>
-                As photographers, we believe that every person, every couple, and every story is unique. Whether it’s a stunning engagement session, a dreamy wedding day, or a simple family portrait, our goal is to create images that feel timeless, authentic, and full of emotion.
+                As problem-solvers, we bring a detailer’s eye and a craftsman’s pride to every job. From routine washes to full gel coat restoration and ceramic protection, we tailor each service to your boat’s condition, use, and goals. Whether it’s a quick turn before a weekend on the water or a multi-step oxidation removal, we do it right the first time.
               </p>
 
               <p>
-                Though we may be just starting our professional journey, we bring fresh creativity, a keen eye for detail, and an unwavering dedication to our craft. Every session is an opportunity to create something truly special, with images that you’ll cherish for a lifetime.
+                What we’re known for:
+                <ul >
+                  <li> <strong> Consistent results:</strong> Proper prep, professional tools, and flawless finishes.</li>
+                  <li> <strong>Clear communication:</strong> Straightforward quotes, updates, and photos.</li>
+                  <li> <strong>Protection that lasts:</strong> Marine-grade waxes and ceramics for UV and salt defense.</li>
+                </ul>
               </p>
 
               <p>
-                If you’re looking for photographers who genuinely care about your story and want to create something beautiful together, we’d love to hear from you! Let’s turn your moments into memories that last forever.
+                If you’re looking for boat detailers who genuinely care about your vessel and use only professional, marine-safe products, we’re your team. We take pride in restoring every surface to a pristine, like-new finish; bringing your boat back to mint condition and ready to shine on the water.
               </p>
             </div>
 
@@ -59,32 +63,32 @@ const About = () => {
         {/* Mission Statement */}
         <div className="mt-20 text-center">
           <h3 className="text-1xl md:text-2xl font-light text-gray-900 mb-8 uppercase tracking-wide">
-            IN A WORLD FULL OF CURATED PORTRAITS, REGURGITATED POSES, AND PLAIN PHOTOS – LET’S DITCH THE ORDINATRY AND CAPTURE ONE-OF-A-KIND MOMENTS, NON-TRADITIONAL AND VINTAGE-INSPIRED PHOTOS THAT TELL YOUR STORY AS IT TRULY IS.
+            IN A WORLD FULL OF CARELESS WASHES AND INEXPERIENCED DETAILING, WE STAND FOR CRAFTSMANSHIP THAT LASTS. OUR MISSION IS TO RESTORE, PROTECT, AND PRESERVE YOUR VESSEL’S TRUE BEAUTY, SO IT LOOKS ITS BEST, SEASON AFTER SEASON.
           </h3>
         </div>
 
         {/* Personal Bio */}
         <div className="mt-16 max-w-4xl mx-auto text-center">
           <h4 className="text-xl font-medium text-gray-900 mb-6">
-            Known to skip the small talk and go straight into perfecting your occasion!
+            Known for our experience with all vessel types and conditions, we stand behind our name and our quality. Nothing makes us prouder than seeing our clients smile when they see their freshly detailed boat!
           </h4>
           <div className="text-gray-700 leading-relaxed space-y-4">
             <p>
-              We're storytellers at heart—partners in life and behind the lens. As a husband and wife team, we bring our unique energies together to create something meaningful. One of us frames the moment with energy and vision, the other with intention and finesse. Together, we tell the full story of love from every angle.
+              We're a hands-on crew, dedicated to delivering professional results without the dealership price tag. By keeping our operation small and efficient, we eliminate overhead costs so every dollar goes into quality products, attention to detail, and results that last.
             </p>
             <p>
-              We're passionate about living intentionally and showing up fully—in our work, our lives, and our relationships. We believe that taking care of the mind and soul helps us show up as our best selves, and that energy carries into every moment we capture.
+              Our approach is simple: work smart, stay consistent, and treat every vessel like our own. Whether it’s a quick wash, oxidation removal, or a full ceramic coating, we take pride in doing it right the first time.
             </p>
             <p>
-              With everyone we meet, we aim to create space for joy, authenticity, and connection. We believe the best moments happen when you're fully present, and our goal is to document your story just as it unfolds—honest, imperfect, and beautifully real.
+              We believe great detailing should be both affordable and exceptional. Our mission is to give every client that fresh off the showroom finish without the premium markup.
             </p>
           </div>
         </div>
 
         {/* Location */}
         <div className="mt-16 text-center">
-          <p className="text-lg text-gray-600 italic mb-2">Based in Florida</p>
-          <p className="text-lg text-gray-600 italic">Available Worldwide</p>
+          <p className="text-lg text-gray-600 italic mb-2">Based in Tampa, Florida</p>
+          <p className="text-lg text-gray-600 italic">Available throughout Central Florida</p>
         </div>
       </div>
     </section>
